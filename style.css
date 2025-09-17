@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Student Digital Portfolio</title>
+
+  <style>
+
+    /* Global */
+
+    body {
+
+      font-family: Arial, sans-serif;
+
+      margin: 0;
+
+      padding: 0;
+
+      background: #f4f4f9;
+
+      color: #333;
+
+    }
+
+    header {
+
+      background: #4CAF50;
+
+      color: white;
+
+      text-align: center;
+
+      padding: 20px;
+
+    }
+
+    nav {
+
+      margin-top: 10px;
+
+    }
+
+    nav a {
+
+      color: white;
+
+      text-decoration: none;
+
+      margin: 0 15px;
+
+      font-weight: bold;
+
+    }
+
+    nav a:hover {
+
+      text-decoration: underline;
+
+    }
+
+    section {
+
+      max-width: 900px;
+
+      margin: 40px auto;
+
+      padding: 20px;
+
+      background: white;
+
+      border-radius: 8px;
+
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+
+    }
+
+    h2 {
+
+      color: #4CAF50;
+
+      margin-bottom: 15px;
+
+    }
+
+    .projects ul {
+
+      list-style-type: square;
+
+      padding-left: 20px;
+
+    }
+
+    footer {
+
+      background: #333;
+
+      color: white;
+
+      text-align: center;
+
+      padding: 15px;
+
+      margin-top: 20px;
+
+    }
+
+    footer p {
+
+      margin: 0;
+
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+  <!-- Header -->
+
+  <header>
+
+    <h1>My Digital Portfolio</h1>
+
+    <nav>
+
+      <a href="#about">About</a>
+
+      <a href="#projects">Projects</a>
+
+      <a href="#contact">Contact</a>
+
+    </nav>
+
+  </header>
+
+  <!-- About Section -->
+
+  <section id="about">
+
+    <h2>About Me</h2>
+
+    <p>Hello! I am a student learning <strong>Web Development</strong>.  
+
+       I enjoy working with HTML, CSS, and JavaScript to build creative projects.</p>
+
+  </section>
+
+  <!-- Projects Section -->
+
+  <section id="projects" class="projects">
+
+    <h2>My Projects</h2>
+
+    <ul>
+
+      <li><b>Portfolio Website:</b> A personal website showcasing my work.</li>
+
+      <li><b>To-Do List:</b> A simple task manager built with HTML, CSS, JS.</li>
+
+      <li><b>Calculator:</b> A basic calculator project for learning JavaScript.</li>
+
+    </ul>
